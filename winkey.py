@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# BIOS Windows Key by Alexandre C. Leite
+# Version 1.0
+
 import binary2strings as b2s
 import os
 

@@ -8,7 +8,8 @@ Foi feito para recuperar a chave de ativação do Windows de um arquivo de BIOS 
 
 Execução:
 Basta digitar "python winkey.py" no terminal e o programa irá perguntar o nome do seu arquivo de bios. (ex: bios.bin)
-Digite o nome correto (com a extensão) e, se tiver a chave salva na BIOS, o programa vai mostrá-la.
+
+Digite o nome correto (incluindo a extensão) e, se tiver a chave salva na BIOS, o programa vai mostrá-la.
 
 Dependências:
 O programa utiliza os módulos padrão do Python 3 mais o módulo binary2strings.

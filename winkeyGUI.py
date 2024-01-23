@@ -30,18 +30,18 @@ def browseFiles():
 
 window = Tk() 
 window.title('Winkey - by ACL') 
-window.geometry("355x100") 
+#window.geometry("325x100") 
 #window.config(background = "white") 
    
 label_file_explorer = Label(window,  
-                            text = ("Windows key Recover\nPor favor, selecione um arquivo."), 
+                            text = ("Windows key Recover\n Por favor, selecione um arquivo. "), 
                             width = 35, height = 3,  
                             fg = "black",
                             font='Helvetica 12 bold') 
    
        
 button_explore = Button(window,  
-                        text = "Selecionar arquivo", 
+                        text = "Selecionar", 
                         command = browseFiles)  
    
 button_exit = Button(window,  
@@ -49,7 +49,7 @@ button_exit = Button(window,
                      command = exit)  
    
 label_file_explorer.grid(column = 1, row = 1) 
-button_explore.grid(column = 1, row = 2, sticky=W, padx=95) 
-button_exit.grid(column = 1, row = 2, sticky=E, padx=100) 
+button_explore.grid(column = 1, row = 2, sticky=W, padx=85, pady=8) 
+button_exit.grid(column = 1, row = 2, sticky=E, padx=65, pady=8) 
 window.mainloop()
 

@@ -24,18 +24,18 @@ def browseFiles():
                     ok = 1
                     chave = string
             if ok == 1:
-               label_file_explorer.configure(text=f'\nO serial encontrado no arquivo é:\n{chave}', fg = "blue", font='Helvetica 12 bold')
+               label_file_explorer.configure(text=f'O serial encontrado no arquivo é:\n{chave}', fg = "blue", font='Helvetica 12 bold')
             else:
                label_file_explorer.configure(text='\nNenhum serial encontrado no arquivo.', fg = "red", font='Helvetica 12 bold')
 
 window = Tk() 
 window.title('Winkey - by ACL') 
-#window.geometry("500x500") 
+window.geometry("355x100") 
 #window.config(background = "white") 
    
 label_file_explorer = Label(window,  
                             text = ("Windows key Recover\nPor favor, selecione um arquivo."), 
-                            width = 50, height = 4,  
+                            width = 35, height = 3,  
                             fg = "black",
                             font='Helvetica 12 bold') 
    
@@ -45,11 +45,11 @@ button_explore = Button(window,
                         command = browseFiles)  
    
 button_exit = Button(window,  
-                     text = "Sair", 
+                     text = " Sair ", 
                      command = exit)  
    
 label_file_explorer.grid(column = 1, row = 1) 
-button_explore.grid(column = 1, row = 2) 
-button_exit.grid(column = 1,row = 3) 
+button_explore.grid(column = 1, row = 2, sticky=W, padx=95) 
+button_exit.grid(column = 1, row = 2, sticky=E, padx=100) 
 window.mainloop()
 

@@ -12,7 +12,7 @@ def engine(arquivo):
            serialnum = 'A chave de ativação é:', result[6:35]
            return serialnum
 
-sg.theme('SystemDefault') 
+sg.theme('BlueMono') 
    
 layout = [[sg.Text('Por favor, selecione o arquivo:'), 
            sg.Text(size=(15,1), key='-OUTPUT-')], 

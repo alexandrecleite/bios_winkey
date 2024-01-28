@@ -8,9 +8,9 @@ Foi feito para recuperar a chave de ativação do Windows de um arquivo de BIOS 
 
 Execução:
 
-Basta digitar "python winkeyGUIV2.py" no terminal e o programa irá abrir a interface gráfica. Depois, é só escolher o arquivo de bios e pronto!
+Basta digitar "python winkeyGUI.py" no terminal e o programa irá abrir a interface gráfica. Depois, é só escolher o arquivo de bios e pronto!
 
-Se preferir a versão CLI (linha de comando), basta digitar "python winkeyV2.py <arquivo>" no terminal. (ex: python winkeyV2.py bios.bin)
+Se preferir a versão CLI (linha de comando), basta digitar "python winkey.py <arquivo>" no terminal. (ex: python winkeyV2.py bios.bin)
 
 Digite o nome correto (incluindo a extensão) e, se tiver a chave salva na BIOS, o programa vai mostrá-la.
 
@@ -36,9 +36,9 @@ It was designed to recover the Windows activation key from a BIOS file that has 
 
 Execution:
 
-Just type "python winkeyGUIV2.py" in the terminal and the program will open the graphical interface. Then, just choose the bios file and that's it!
+Just type "python winkeyGUI.py" in the terminal and the program will open the graphical interface. Then, just choose the bios file and that's it!
 
-If you prefer the CLI (command line) version, just type "python winkeyV2.py <file>" in the terminal. (ex: python winkeyV2.py bios.bin)
+If you prefer the CLI (command line) version, just type "python winkey.py <file>" in the terminal. (ex: python winkeyV2.py bios.bin)
 
 Enter the correct name (including the extension) and, if you have the key saved in the BIOS, the program will show it.
 

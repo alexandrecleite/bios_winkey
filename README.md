@@ -1,13 +1,14 @@
-# bios_winkey
+<!-- bios_winkey
 # by Alexandre C. Leite
 # Project URL: https://github.com/alexandrecleite/bios_winkey
-# Edit [06/06/2024] Add winkey.sh (Bash version)
+# Edit [06/06/2024] Add winkey.sh (Bash version)-->
 
 Olá! Este é o meu primeiro projeto feito em Python 3.
 
 Foi feito para recuperar a chave de ativação do Windows de um arquivo de BIOS que tenha sido extraída de um PC ou Notebook.
 
-Execução:
+
+***Execução:**
 
 Basta digitar "python winkeyGUI.py" no terminal e o programa irá abrir a interface gráfica. Depois, é só escolher o arquivo de bios, clicar OK e pronto!
 
@@ -17,7 +18,7 @@ Digite o nome correto (incluindo a extensão) e, se tiver a chave salva na BIOS,
 
 
 
-Dependências:
+**Dependências:**
 O programa utiliza os módulos PySimpleGUI, sys e o modulo re.
 
 Para instalar o módulo PySimpleGUI digite no terminal:
@@ -25,17 +26,17 @@ Para instalar o módulo PySimpleGUI digite no terminal:
 pip install PySimpleGUI
 
 
-##########################
+---
 
 
-ENGLISH
+***ENGLISH
 
 Hello! This is my first project done in Python 3.
 
 It was designed to recover the Windows activation key from a BIOS file that has been extracted from a PC or Notebook.
 
 
-Execution:
+**Execution:**
 
 Just type "python winkeyGUI.py" in the terminal and the program will open the graphical interface. Then, just choose the bios file and that's it!
 
@@ -45,7 +46,7 @@ Enter the correct name (including the extension) and, if you have the key saved 
 
 
 
-Dependencies:
+**Dependencies:**
 
 The program uses the PySimpleGUI, sys and re modules.
 
@@ -54,5 +55,5 @@ To install the PySimpleGUI module type in the terminal:
 pip install PySimpleGUI
 
 
-#########################
+---
 

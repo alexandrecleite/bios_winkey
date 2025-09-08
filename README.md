@@ -1,7 +1,8 @@
-<!-- bios_winkey
+```bios_winkey
 # by Alexandre C. Leite
 # Project URL: https://github.com/alexandrecleite/bios_winkey
-# Edit [06/06/2024] Add winkey.sh (Bash version)-->
+# Edit [06/06/2024] Add winkey.sh (Bash version)
+```
 
 Olá! Este é o meu primeiro projeto feito em Python 3.
 

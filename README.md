@@ -1,7 +1,7 @@
 `bios_winkey`<br>
-`by Alexandre C. Leite`
-`Project URL: https://github.com/alexandrecleite/bios_winkey`
-`Edit [06/06/2024] Add winkey.sh (Bash version)`
+`by Alexandre C. Leite`<br>
+`Project URL: https://github.com/alexandrecleite/bios_winkey`<br>
+`Edit [06/06/2024] Add winkey.sh (Bash version)`<br>
 
 
 Olá! Este é o meu primeiro projeto feito em Python 3.

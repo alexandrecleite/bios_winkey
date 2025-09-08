@@ -8,7 +8,7 @@ Olá! Este é o meu primeiro projeto feito em Python 3.
 Foi feito para recuperar a chave de ativação do Windows de um arquivo de BIOS que tenha sido extraída de um PC ou Notebook.
 
 
-***Execução:**
+**Execução:**
 
 Basta digitar "python winkeyGUI.py" no terminal e o programa irá abrir a interface gráfica. Depois, é só escolher o arquivo de bios, clicar OK e pronto!
 
@@ -29,7 +29,7 @@ pip install PySimpleGUI
 ---
 
 
-***ENGLISH
+###ENGLISH
 
 Hello! This is my first project done in Python 3.
 
